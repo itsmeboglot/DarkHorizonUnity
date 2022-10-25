@@ -1,0 +1,1 @@
+Put this to Scripts/Core folder! (w/out Example)

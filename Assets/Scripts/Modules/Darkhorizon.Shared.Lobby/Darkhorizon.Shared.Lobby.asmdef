@@ -1,0 +1,18 @@
+{
+    "name": "Darkhorizon.Shared.Lobby",
+    "rootNamespace": "Darkhorizon.Shared.Lobby",
+    "references": [
+        "GUID:438944d1b7eb2804e8f83b5605e1aada",
+        "GUID:10784a1fa5ff5cc4daaa41144de7c6b6",
+        "GUID:25e8187726bdf2245aafb56fca70be02"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

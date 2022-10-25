@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MainMenu
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 8d42ffbb4e0a2d54eade6f603b11170d, type: 3}
+    totalSpriteSurfaceArea: 1272897
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 160947215794fe549b3d57c92ff16b7d, type: 3}
+  - {fileID: 21300000, guid: 25918912be3fb99479edb2a9ddb8d136, type: 3}
+  - {fileID: 21300000, guid: f65ce6620c3a05d4fb1db631158b491d, type: 3}
+  - {fileID: 21300000, guid: 8d4242e2b28ac2347a549d6f37ff9768, type: 3}
+  - {fileID: 21300000, guid: d6691ba32360f374c8151428df47978b, type: 3}
+  - {fileID: 21300000, guid: 491880657a1c977438d39ca18f4ea662, type: 3}
+  - {fileID: 21300000, guid: e77a69966f5456e4da7e4dedf96adafd, type: 3}
+  - {fileID: 21300000, guid: a3dea8197dfba484491f7946e6b40e52, type: 3}
+  - {fileID: 21300000, guid: f09069aa737e5b24fbd82a6744625dae, type: 3}
+  - {fileID: 21300000, guid: a8ef262b690547d4a885c3164c980171, type: 3}
+  - {fileID: 21300000, guid: ff467f3b223701e48b53faf214aceb71, type: 3}
+  - {fileID: 21300000, guid: 332040ab33de5e94b9dd50822f0aa125, type: 3}
+  - {fileID: 21300000, guid: 306b67cf7ffe80542b9a982da210dfcc, type: 3}
+  - {fileID: 21300000, guid: 96e1f6df774ab6f4aa22d9c680616a5f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Off
+  - Button_Large
+  - Button_Simple
+  - Fillable_Field_B
+  - Card_Header
+  - Options
+  - Frame_Horizontal
+  - Textfield_Small
+  - Frame_Simple
+  - Gigaframe
+  - Scroller
+  - Menu_Profile
+  - On
+  - Bar_Side
+  m_RenderDataMap: {}
+  m_Tag: MainMenu
+  m_IsVariant: 0

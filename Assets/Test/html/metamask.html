@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>localhost metamask for test</title>
+	<script src="https://cdn.ethers.io/lib/ethers-5.1.umd.min.js" type="text/javascript"></script>
+    <script src="http://localhost:8081/WebGLTemplates/CustomTemplate/TemplateData/src/metamask.js" type="text/javascript"></script>
+    <script src="callbackToUnity.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <script>
+
+      onLoad();
+      
+      function onLoad()
+      {
+        var parameters = getSearchParameters();
+
+        if(parameters.type == 'ConnectToMetamask') {
+          console.info(window.ethereum);
+          if (typeof window.ethereum !== 'undefined') {
+            
+            metamaskSign(decodeURIComponent(parameters.phrase)).then(data => {
+              sendGET(parameters.responsePort, parameters.type, data).then(() => {
+                window.close();
+              });
+            });
+          }
+          else
+          {
+            sendGET(parameters.responsePort, 'MetamaskErrorHandler', JSON.stringify({type: parameters.type, message: 'Metamask is not installed!'})).then(() => {
+              window.close();
+            });
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

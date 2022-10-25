@@ -1,0 +1,17 @@
+{
+    "name": "Darkhorizon.Shared.Player",
+    "rootNamespace": "Darkhorizon.Shared.Player",
+    "references": [
+        "GUID:438944d1b7eb2804e8f83b5605e1aada",
+        "GUID:a8096d8b6428dd04e9b7968fecaaa2e0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
